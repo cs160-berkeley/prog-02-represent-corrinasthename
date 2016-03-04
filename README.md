@@ -16,8 +16,8 @@ See [your demo video title here] (https://drive.google.com/file/d/0BzIDwH44jphTU
 <img src="screenshots/detailed_view_on_phone.png" height="400" alt="Screenshot"/><br>
 <img src="screenshots/detailed_view_on_watch.png" height="400" alt="Screenshot"/><br>
 <img src="screenshots/detailed_view_on_watch_congressional_view_on_phone.png" height="400" alt="Screenshot"/><br>
-<img src="screenshots/election_results" height="400" alt="Screenshot"/><br>
-<img src="screenshots/main_screen" height="400" alt="Screenshot"/><br>
+<img src="screenshots/election_results.png" height="400" alt="Screenshot"/><br>
+<img src="screenshots/main_screen.png" height="400" alt="Screenshot"/><br>
 
 ## Acknowledgments
 
