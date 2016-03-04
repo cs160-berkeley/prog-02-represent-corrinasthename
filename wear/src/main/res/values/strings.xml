@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Catnip</string>
+    <string name="hello_round">Hello Round World!</string>
+    <string name="hello_square">Hello Square World!</string>
+    <string name="title_activity_swipe">SwipeActivity</string>
+    <string name="title_activity_shake">ShakeActivity</string>
+    <string name="title_activity_sensor">SensorActivity</string>
+</resources>

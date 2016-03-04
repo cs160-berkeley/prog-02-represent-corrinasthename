@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.cs160.joleary.catnip.CongressionalActivity">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView2"
+        android:layout_alignParentEnd="true" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!--BARBARA-->
+            <ImageButton
+                android:onClick="sendMessage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:maxWidth="100dp"
+                android:maxHeight="100dp"
+                android:scaleType="fitCenter"
+                android:id="@+id/barbara"
+                android:background="@null"
+                android:layout_alignParentTop="false"
+                android:layout_alignParentStart="false"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/barbara_boxer1" />
+
+            <TextView
+                android:id="@+id/rep_name1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Sen., Barbara Boxer"
+                android:textColor="#000000"
+                android:layout_toRightOf="@+id/barbara"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/rep_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="http://boxer.senate.gov\nsen.boxer@ca.gov"
+                android:layout_alignLeft="@+id/rep_name1"
+                android:layout_below="@+id/rep_name1"
+                android:textSize="10sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:maxWidth="24dp"
+                android:maxHeight="24dp"
+                android:scaleType="fitCenter"
+                android:id="@+id/party_pic"
+                android:src="@drawable/democrat"
+                android:layout_alignBottom="@+id/barbara"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="90dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:maxWidth="25dp"
+                android:maxHeight="25dp"
+                android:scaleType="fitCenter"
+                android:id="@+id/twitter"
+                android:src="@drawable/twitter"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="13dp"
+                android:layout_below="@+id/rep_name"
+                android:layout_toRightOf="@+id/party_pic"/>
+
+            <TextView
+                android:id="@+id/handle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="\@senatorboxer"
+                android:textColor="#1e88e5"
+                android:layout_toRightOf="@+id/twitter"
+                android:layout_alignBottom="@+id/twitter"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:textSize="10sp" />
+
+            <!--DIANNE-->
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:maxWidth="100dp"
+                android:maxHeight="100dp"
+                android:scaleType="fitCenter"
+                android:id="@+id/dianne"
+                android:background="@null"
+                android:layout_below="@id/barbara"
+                android:layout_alignLeft="@+id/barbara"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/dianne_feinstein1" />
+
+            <TextView
+                android:id="@+id/rep_name2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Sen., Dianne Feinstien"
+                android:textColor="#000000"
+                android:layout_toRightOf="@+id/dianne"
+                android:layout_alignTop="@+id/dianne"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_alignParentEnd="true"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/rep_name3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="http://feinstien.senate.gov\nsen.feinstien@ca.gov"
+                android:layout_alignLeft="@+id/rep_name1"
+                android:layout_below="@+id/rep_name2"
+                android:textSize="10sp" />
+
+            <ImageView
+                android:id="@+id/party1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:maxWidth="24dp"
+                android:maxHeight="24dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/democrat"
+                android:layout_alignBottom="@+id/dianne"
+                android:layout_alignLeft="@+id/party_pic"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:maxWidth="25dp"
+                android:maxHeight="25dp"
+                android:scaleType="fitCenter"
+                android:id="@+id/twitter1"
+                android:src="@drawable/twitter"
+                android:layout_marginBottom="13dp"
+                android:layout_below="@+id/rep_name3"
+                android:layout_alignLeft="@+id/twitter"
+                android:layout_toRightOf="@+id/party1"/>
+
+            <TextView
+                android:id="@+id/handle1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="\@diannefeinstien"
+                android:textColor="#1e88e5"
+                android:layout_toRightOf="@+id/twitter1"
+                android:layout_alignBottom="@+id/twitter1"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:textSize="10sp" />
+
+
+            <!--ADAM-->
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:maxWidth="100dp"
+                android:maxHeight="100dp"
+                android:scaleType="fitCenter"
+                android:id="@+id/adam"
+                android:background="@null"
+                android:layout_below="@id/dianne"
+                android:layout_alignLeft="@+id/barbara"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/adam_schiff1" />
+
+            <TextView
+                android:id="@+id/rep_name4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Rep., Adam Schiff"
+                android:textColor="#000000"
+                android:layout_toRightOf="@+id/adam"
+                android:layout_alignTop="@+id/adam"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_alignParentEnd="true"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/rep_name5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="http://schiff.senate.gov\nrep.schiff@ca.gov"
+                android:layout_alignLeft="@+id/rep_name1"
+                android:layout_below="@+id/rep_name4"
+                android:textSize="10sp" />
+
+            <ImageView
+                android:id="@+id/party2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:maxWidth="24dp"
+                android:maxHeight="24dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/democrat"
+                android:layout_alignBottom="@+id/adam"
+                android:layout_alignLeft="@+id/party_pic"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:maxWidth="25dp"
+                android:maxHeight="25dp"
+                android:scaleType="fitCenter"
+                android:id="@+id/twitter2"
+                android:src="@drawable/twitter"
+                android:layout_marginBottom="13dp"
+                android:layout_below="@+id/rep_name5"
+                android:layout_alignLeft="@+id/twitter"
+                android:layout_toRightOf="@+id/party2"/>
+
+            <TextView
+                android:id="@+id/handle2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="\@adamschiff"
+                android:textColor="#1e88e5"
+                android:layout_toRightOf="@+id/twitter2"
+                android:layout_alignBottom="@+id/twitter2"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:textSize="10sp" />
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

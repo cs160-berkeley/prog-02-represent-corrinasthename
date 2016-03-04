@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:gravity="center" android:layout_gravity="center"
+    tools:context=".MainActivity" android:orientation="vertical" tools:deviceIds="wear_round"
+    android:background="@drawable/flag_fixed1">
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:maxWidth="130dp"
+        android:maxHeight="130dp"
+        android:scaleType="fitCenter"
+        android:id="@+id/click_me"
+        android:src="@drawable/barbara_boxer1"
+        android:background="@null"
+        android:layout_centerHorizontal="true"/>
+
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/click_me"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bar"
+            android:src="@drawable/white_bar" />
+
+
+        <TextView
+            android:id="@+id/rep_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Sen., Barbara Boxer"
+            android:textColor="#1e88e5"
+            android:layout_alignTop="@+id/bar"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/party"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Democrat"
+            android:textColor="#1e88e5"
+            android:layout_below="@+id/rep_name"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:maxWidth="20dp"
+            android:maxHeight="20dp"
+            android:scaleType="fitCenter"
+            android:id="@+id/party_pic"
+            android:src="@drawable/democrat"
+            android:layout_below="@+id/rep_name"
+            android:layout_toRightOf="@+id/party"/>
+        <!--android:src="@drawable/democrat"-->
+    </RelativeLayout>
+
+
+</RelativeLayout>
+
+
+
+
+
