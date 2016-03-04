@@ -21,5 +21,6 @@ See [your demo video title here] (https://drive.google.com/file/d/0BzIDwH44jphTU
 
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used
-* Any other support
+* Shout out to stack overflow always providing me with code for fragments & sensors (even tho i wasn't able to get the sensor to work before the deadline...)
+* Shout out to the GSIs for holding office hours and emulator parties even tho my emulators never ended up working together :(
+* Shout out to T-Mobile for providing me with an android phone on the quickness even tho I had to sign up for a plan to get the phone for cheaper since an unlocked phone with no plan is hella expensive
