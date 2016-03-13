@@ -1,4 +1,23 @@
+<<<<<<< HEAD
+buildscript {
+    repositories {
+        maven { url 'https://maven.fabric.io/public' }
+    }
+
+    dependencies {
+        classpath 'io.fabric.tools:gradle:1.+'
+    }
+}
 apply plugin: 'com.android.application'
+apply plugin: 'io.fabric'
+
+repositories {
+    maven { url 'https://maven.fabric.io/public' }
+}
+
+=======
+apply plugin: 'com.android.application'
+>>>>>>> 33447d91354024083ffc1597ff22b89a04b2e170
 
 
 android {
@@ -24,4 +43,10 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.google.android.support:wearable:1.3.0'
     compile 'com.google.android.gms:play-services-wearable:8.1.0'
+<<<<<<< HEAD
+    compile('com.twitter.sdk.android:twitter:1.13.0@aar') {
+        transitive = true;
+    }
+=======
+>>>>>>> 33447d91354024083ffc1597ff22b89a04b2e170
 }

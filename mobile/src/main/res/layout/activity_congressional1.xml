@@ -34,7 +34,11 @@
                 android:maxWidth="100dp"
                 android:maxHeight="100dp"
                 android:scaleType="fitCenter"
+<<<<<<< HEAD
+                android:id="@+id/pic1"
+=======
                 android:id="@+id/barbara"
+>>>>>>> 33447d91354024083ffc1597ff22b89a04b2e170
                 android:background="@null"
                 android:layout_alignParentTop="false"
                 android:layout_alignParentStart="false"
@@ -42,25 +46,42 @@
                 android:src="@drawable/mitch_mcconell1" />
 
             <TextView
+<<<<<<< HEAD
+                android:id="@+id/name1"
+=======
                 android:id="@+id/rep_name1"
+>>>>>>> 33447d91354024083ffc1597ff22b89a04b2e170
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Sen., Mitch McConnell"
                 android:textColor="#000000"
+<<<<<<< HEAD
+                android:layout_toRightOf="@+id/pic1"
+=======
                 android:layout_toRightOf="@+id/barbara"
+>>>>>>> 33447d91354024083ffc1597ff22b89a04b2e170
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="10dp"
                 android:textSize="15sp" />
 
             <TextView
+<<<<<<< HEAD
+                android:id="@+id/webmail1"
+=======
                 android:id="@+id/rep_name"
+>>>>>>> 33447d91354024083ffc1597ff22b89a04b2e170
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="http://mcconnell.senate.gov\nsen.mitchel@ky.gov"
+<<<<<<< HEAD
+                android:layout_alignLeft="@+id/name1"
+                android:layout_below="@+id/name1"
+=======
                 android:layout_alignLeft="@+id/rep_name1"
                 android:layout_below="@+id/rep_name1"
+>>>>>>> 33447d91354024083ffc1597ff22b89a04b2e170
                 android:textSize="10sp" />
 
             <ImageView
@@ -72,7 +93,11 @@
                 android:scaleType="fitCenter"
                 android:id="@+id/party_pic"
                 android:src="@drawable/republican1"
+<<<<<<< HEAD
+                android:layout_alignBottom="@+id/pic1"
+=======
                 android:layout_alignBottom="@+id/barbara"
+>>>>>>> 33447d91354024083ffc1597ff22b89a04b2e170
                 android:layout_marginTop="30dp"
                 android:layout_marginLeft="90dp"/>
 
@@ -87,11 +112,19 @@
                 android:src="@drawable/twitter"
                 android:layout_marginLeft="5dp"
                 android:layout_marginBottom="13dp"
+<<<<<<< HEAD
+                android:layout_below="@+id/webmail1"
+                android:layout_toRightOf="@+id/party_pic"/>
+
+            <TextView
+                android:id="@+id/t_handle1"
+=======
                 android:layout_below="@+id/rep_name"
                 android:layout_toRightOf="@+id/party_pic"/>
 
             <TextView
                 android:id="@+id/handle"
+>>>>>>> 33447d91354024083ffc1597ff22b89a04b2e170
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
@@ -111,35 +144,60 @@
                 android:maxWidth="100dp"
                 android:maxHeight="100dp"
                 android:scaleType="fitCenter"
+<<<<<<< HEAD
+                android:id="@+id/pic2"
+                android:background="@null"
+                android:layout_below="@id/pic1"
+                android:layout_alignLeft="@+id/pic1"
+=======
                 android:id="@+id/dianne"
                 android:background="@null"
                 android:layout_below="@id/barbara"
                 android:layout_alignLeft="@+id/barbara"
+>>>>>>> 33447d91354024083ffc1597ff22b89a04b2e170
                 android:layout_marginTop="20dp"
                 android:src="@drawable/rand_paul1" />
 
             <TextView
+<<<<<<< HEAD
+                android:id="@+id/name2"
+=======
                 android:id="@+id/rep_name2"
+>>>>>>> 33447d91354024083ffc1597ff22b89a04b2e170
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Sen., Rand Paul"
                 android:textColor="#000000"
+<<<<<<< HEAD
+                android:layout_toRightOf="@+id/pic2"
+                android:layout_alignTop="@+id/pic2"
+=======
                 android:layout_toRightOf="@+id/dianne"
                 android:layout_alignTop="@+id/dianne"
+>>>>>>> 33447d91354024083ffc1597ff22b89a04b2e170
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="10dp"
                 android:layout_alignParentEnd="true"
                 android:textSize="15sp" />
 
             <TextView
+<<<<<<< HEAD
+                android:id="@+id/webmail2"
+=======
                 android:id="@+id/rep_name3"
+>>>>>>> 33447d91354024083ffc1597ff22b89a04b2e170
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="http://paul.senate.gov\nsen.paul@ky.gov"
+<<<<<<< HEAD
+                android:layout_alignLeft="@+id/name1"
+                android:layout_below="@+id/name2"
+=======
                 android:layout_alignLeft="@+id/rep_name1"
                 android:layout_below="@+id/rep_name2"
+>>>>>>> 33447d91354024083ffc1597ff22b89a04b2e170
                 android:textSize="10sp" />
 
             <ImageView
@@ -151,7 +209,11 @@
                 android:maxHeight="24dp"
                 android:scaleType="fitCenter"
                 android:src="@drawable/republican1"
+<<<<<<< HEAD
+                android:layout_alignBottom="@+id/pic2"
+=======
                 android:layout_alignBottom="@+id/dianne"
+>>>>>>> 33447d91354024083ffc1597ff22b89a04b2e170
                 android:layout_alignLeft="@+id/party_pic"/>
 
             <ImageView
@@ -164,12 +226,20 @@
                 android:id="@+id/twitter1"
                 android:src="@drawable/twitter"
                 android:layout_marginBottom="13dp"
+<<<<<<< HEAD
+                android:layout_below="@+id/webmail2"
+=======
                 android:layout_below="@+id/rep_name3"
+>>>>>>> 33447d91354024083ffc1597ff22b89a04b2e170
                 android:layout_alignLeft="@+id/twitter"
                 android:layout_toRightOf="@+id/party1"/>
 
             <TextView
+<<<<<<< HEAD
+                android:id="@+id/t_handle2"
+=======
                 android:id="@+id/handle1"
+>>>>>>> 33447d91354024083ffc1597ff22b89a04b2e170
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
@@ -190,35 +260,60 @@
                 android:maxWidth="100dp"
                 android:maxHeight="100dp"
                 android:scaleType="fitCenter"
+<<<<<<< HEAD
+                android:id="@+id/pic3"
+                android:background="@null"
+                android:layout_below="@id/pic2"
+                android:layout_alignLeft="@+id/pic1"
+=======
                 android:id="@+id/adam"
                 android:background="@null"
                 android:layout_below="@id/dianne"
                 android:layout_alignLeft="@+id/barbara"
+>>>>>>> 33447d91354024083ffc1597ff22b89a04b2e170
                 android:layout_marginTop="20dp"
                 android:src="@drawable/ed_whitfield1" />
 
             <TextView
+<<<<<<< HEAD
+                android:id="@+id/name4"
+=======
                 android:id="@+id/rep_name4"
+>>>>>>> 33447d91354024083ffc1597ff22b89a04b2e170
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Rep., Ed Whitfield"
                 android:textColor="#000000"
+<<<<<<< HEAD
+                android:layout_toRightOf="@+id/pic3"
+                android:layout_alignTop="@+id/pic3"
+=======
                 android:layout_toRightOf="@+id/adam"
                 android:layout_alignTop="@+id/adam"
+>>>>>>> 33447d91354024083ffc1597ff22b89a04b2e170
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="10dp"
                 android:layout_alignParentEnd="true"
                 android:textSize="15sp" />
 
             <TextView
+<<<<<<< HEAD
+                android:id="@+id/webmail4"
+=======
                 android:id="@+id/rep_name5"
+>>>>>>> 33447d91354024083ffc1597ff22b89a04b2e170
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="http://house.senate.gov\nrep.whitfield@ky.gov"
+<<<<<<< HEAD
+                android:layout_alignLeft="@+id/name1"
+                android:layout_below="@+id/name4"
+=======
                 android:layout_alignLeft="@+id/rep_name1"
                 android:layout_below="@+id/rep_name4"
+>>>>>>> 33447d91354024083ffc1597ff22b89a04b2e170
                 android:textSize="10sp" />
 
             <ImageView
@@ -230,7 +325,11 @@
                 android:maxHeight="24dp"
                 android:scaleType="fitCenter"
                 android:src="@drawable/republican1"
+<<<<<<< HEAD
+                android:layout_alignBottom="@+id/pic3"
+=======
                 android:layout_alignBottom="@+id/adam"
+>>>>>>> 33447d91354024083ffc1597ff22b89a04b2e170
                 android:layout_alignLeft="@+id/party_pic"/>
 
             <ImageView
@@ -243,12 +342,20 @@
                 android:id="@+id/twitter2"
                 android:src="@drawable/twitter"
                 android:layout_marginBottom="13dp"
+<<<<<<< HEAD
+                android:layout_below="@+id/webmail4"
+=======
                 android:layout_below="@+id/rep_name5"
+>>>>>>> 33447d91354024083ffc1597ff22b89a04b2e170
                 android:layout_alignLeft="@+id/twitter"
                 android:layout_toRightOf="@+id/party2"/>
 
             <TextView
+<<<<<<< HEAD
+                android:id="@+id/t_handle4"
+=======
                 android:id="@+id/handle2"
+>>>>>>> 33447d91354024083ffc1597ff22b89a04b2e170
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"

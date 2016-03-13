@@ -7,4 +7,11 @@
     <string name="title_activity_detailed_view">DetailedViewActivity</string>
     <string name="title_activity_congressional">CongressionalActivity</string>
     <string name="title_activity_congressional_view">CongressionalViewActivity</string>
+<<<<<<< HEAD
+    <string name="title_activity_twitter">TwitterActivity</string>
+    <string name="title_activity_twittery">TwitteryActivity</string>
+    <string name="title_activity_current_location">Map</string>
+    <string name="title_activity_maps">Map</string>
+=======
+>>>>>>> 33447d91354024083ffc1597ff22b89a04b2e170
 </resources>
